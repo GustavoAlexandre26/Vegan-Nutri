@@ -30,7 +30,7 @@ int main() {
 
     
 
-        while (opcao != 0) { // while para manter o sistema rodando ate o usuario escolher 0 para sair, antes esta switch mas apos o usario escolher uma opção o programa fechava.
+        while (opcao != 0) { // while para manter o sistema rodando ate o usuario escolher 0 para sair, antes estava switch mas apos o usario escolher uma opção o programa fechava.
 
 
         scanf(" %d", &opcao);  // aqui vai entrar a opção que o usario fez a escolha. 
