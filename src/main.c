@@ -11,8 +11,6 @@ int main() {
 
     int opcao = 10;
 
-    while (opcao != 0) {
-
         puts("=========================");
         puts("      VEGAN NUTRI        ");
         puts("=========================");
@@ -28,6 +26,10 @@ int main() {
         puts("Ser vegano e escolher, todos os dias, construir um mundo mais leve, compassivo e cheio de vida, comecando pelo prato e transbordando para o coracao.\n");
         printf("\n");
         printf("Escolha uma opcao: ");
+
+        while (opcao != 0) {
+
+
         scanf(" %d", &opcao);   
       
         switch (opcao) {
