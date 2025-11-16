@@ -19,7 +19,7 @@ void montarRefeicao() {
         puts("0 - Voltar ao menu");
         printf("Opcao: ");
 
-        while (prato != 0) { // repete até o usuário escolher 0.
+        while (prato != 0) { // repete até o usuário escolher 0
 
         scanf("%d", &prato);
 
@@ -67,6 +67,6 @@ void montarRefeicao() {
             puts("Opcao invalida.");
         }
 
-        printf("\n"); // espaçamento entre execuções. 
+        printf("\n"); // espaçamento entre execuções.
     }
 }
