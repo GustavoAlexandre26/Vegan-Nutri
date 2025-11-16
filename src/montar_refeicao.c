@@ -7,7 +7,7 @@ void montarRefeicao() {
 
     int prato =10; //variável que recebe a escolha do usuário
 
-    while (prato != 0) { // repete até o usuário escolher 0
+    
         puts("=========================");
         puts("      Montar Refeicao    ");
         puts("=========================");
@@ -18,6 +18,9 @@ void montarRefeicao() {
         puts("4 - Salada");
         puts("0 - Voltar ao menu");
         printf("Opcao: ");
+
+        while (prato != 0) { // repete até o usuário escolher 0
+            
         scanf("%d", &prato);
 
         if (prato == 1) {
