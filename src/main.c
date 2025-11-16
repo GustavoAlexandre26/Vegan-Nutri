@@ -6,13 +6,13 @@ Descrição:Sistema de substituições veganas.
 */
 #include <stdio.h>
 #include <stdlib.h>
-#include "funcoes.h"
+#include "funcoes.h" // Importa as funções que fazem montar reifeição e guia de compras 
 
 int main() {
 
     int opcao = 10; // Variavel para armazenar a opcao do usario (obs tentei varios numero achando que teria erro mas qualquer numero vai da certo só não pode deixa o while fazendo o loop em tudo)
 
-        puts("========================="); // da linha 14 a 29 menu do sistema com opções do cardapio de siubstituições veganas
+        puts("========================="); // da linha 14 a 29 menu do sistema com opções do cardapio de substituições veganas
         puts("      VEGAN NUTRI        ");
         puts("=========================");
         puts("Cardapio de substituicoes veganas:");
@@ -28,7 +28,7 @@ int main() {
         printf("\n");
         puts("Ser vegano e escolher, todos os dias, construir um mundo mais leve, compassivo e cheio de vida, comecando pelo prato e transbordando para o coracao.\n");
         printf("\n");
-        printf("Escolha uma opcao: "); // pede para o usuario fazer a escolha da opção do menu 
+        printf("Escolha uma opcao (escolha entre 0 a 7): "); // pede para o usuario fazer a escolha da opção do menu 
 
     
 
@@ -39,43 +39,43 @@ int main() {
       
         switch (opcao) { // switch para cada opção do menu - linha 38 a 93
             case 1:
-                puts("Substituicoes para leite:");
+                puts("Substituicoes para leite:"); // case que vai mostrar as substituições para leite 
                 puts("- Leite de amendoas - (por 100 ml): 0,5g proteina | 3g carboidratos | 1g gordura | 15 kcal");
                 puts("- Leite de soja - (por 100 ml): 3g proteina | 4g carboidratos | 2g gordura | 33 kcal");
                 puts("- Leite de aveia - (por 100 ml): 3g proteina | 4g carboidratos | 2g gordura | 33 kcal ");
                 printf("\n");
-                printf("\n Escolha uma opcao:");
+                printf("\n Escolha uma opcao(escolha entre 0 a 7):");
                 break;
 
             case 2:
-                puts("Substituicoes para ovo:");
+                puts("Substituicoes para ovo:"); // case que vai mostrar as substituições para ovo 
                 puts("- Semente de linhaca com agua - 2 colheres = 3g proteina | 5g carboidratos | 4g fibras | 37 kcal");
                 puts("- Pure de banana - 2 colheres = 3g proteina | 5g carboidratos | 4g fibras | 37 kcal");
                 puts("- Tofu - 2 colheres = 3g proteina | 5g carboidratos | 4g fibras | 37 kcal");
                 printf("\n");
-                printf("\n Escolha uma opcao:");
+                printf("\n Escolha uma opcao(escolha entre 0 a 7):");
                 break;
 
             case 3:
-                puts("Substituicoes para carne:");
+                puts("Substituicoes para carne:"); // case que vai mostrar as substituições para carne 
                 puts("- Proteina de soja - (100g) 18g proteina | 9g carboidratos | 5g fibras | 120 kcal");
                 puts("- Jaca verde - (100g) 18g proteina | 9g carboidratos | 5g fibras | 120 kcal");
                 puts("- Lentilha temperada - (100g) 18g proteina | 9g carboidratos | 5g fibras | 120 kcal");
                 printf("\n");
-                printf("\n Escolha uma opcao:");
+                printf("\n Escolha uma opcao(escolha entre 0 a 7):");
                 break;
 
             case 4:
-                puts("Substituicoes para frango:");
+                puts("Substituicoes para frango:"); // case que vai mostrar as substituições para frango
                 puts("- Proteina vegetal texturizada desfiada - 18g proteina | 9g carboidratos | 5g fibras | 120 kcal");
                 puts("- Tofu marinado - 18g proteina | 9g carboidratos | 5g fibras | 120 kcal");
                 puts("- Cogumelos desfiados - 18g proteina | 9g carboidratos | 5g fibras | 120 kcal");
                 printf("\n");
-                printf("\n Escolha uma opcao:");
+                printf("\n Escolha uma opcao(escolha entre 0 a 7):");
                 break;
 
             case 5:
-                puts("Sobremesas veganas e suas informacoes nutricionais:");
+                puts("Sobremesas veganas e suas informacoes nutricionais:"); // case que vai mostrar as opções para sobremesas 
                 puts("- Mousse de chocolate vegano:");
                 puts("  Base: chocolate 70% cacau + leite vegetal");
                 puts("  Por porcao (100g): 3g proteina | 18g carboidratos | 12g gorduras | 180 kcal\n");
@@ -92,14 +92,14 @@ int main() {
                 puts("  Base: cacau, farinha, oleo de coco e acucar demerara");
                 puts("  Por porcao (100g): 4g proteina | 28g carboidratos | 10g gordura | 220 kcal\n");
 
-                printf("\nEscolha uma opcao:");
+                printf("\nEscolha uma opcao(escolha entre 0 a 7):");
                 break; // break para finalizar cada case 
 
-                case 6:
+                case 6: // case que chama a função de montar refeição 
                 montarRefeicao();
                 break;
 
-                case 7:
+                case 7: // case que chama a função do guia de compras 
                 guiaCompras();
                 break;
 

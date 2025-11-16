@@ -6,4 +6,4 @@ void guiaCompras();
 
 #endif
 
-//Codigo que vai puxar o guias de compras e montar refeicao para o compilar do terminal e ultizar a opaco 7 e 6 no main.c
+//Codigo que vai puxar o guias de compras e montar refeicao para o compilar do terminal e utilizar a opaco 7 e 6 no main.c
