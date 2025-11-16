@@ -21,12 +21,12 @@ void montarRefeicao() {
 
         while (prato != 0) { // repete até o usuário escolher 0. 
 
-        scanf("%d", &prato);
+        scanf("%d", &prato); // aqui vai entrar a opção que o usario fez a escolha. 
 
-        switch (prato) {  // Se o usuário digitou 1, mostramos os carboidratos.
+        switch (prato) {   // switch para cada opção do menu
 
         case 1:
-            puts("Carboidratos disponiveis:");
+            puts("Carboidratos disponiveis:"); // Se o usuário digitou 1, mostramos os carboidratos.
             puts("- Arroz integral (100g): 2.6g proteina | 23g carboidratos | 1g fibras | 110 kcal");
             puts("- Quinoa cozida (100g): 4g proteina | 19g carboidratos | 2g gordura | 120 kcal");
             puts("- Macarrao vegano (100g): 5g proteina | 25g carboidratos | 140 kcal");
