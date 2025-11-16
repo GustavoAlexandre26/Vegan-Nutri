@@ -6,6 +6,7 @@ Descrição:Sistema de substituições veganas.
 */
 #include <stdio.h>
 #include <stdlib.h>
+#include "funcoes.h"
 
 int main() {
 
@@ -21,7 +22,8 @@ int main() {
         puts("3 - Carne");
         puts("4 - Frango");
         puts("5 - Sobremesas");
-        puts("0 - Sair");
+        puts("6 - Montar Refeicao");
+        puts("7 - Guias de Compras");
         puts("--------------------------");
         printf("\n");
         puts("Ser vegano e escolher, todos os dias, construir um mundo mais leve, compassivo e cheio de vida, comecando pelo prato e transbordando para o coracao.\n");
@@ -92,6 +94,15 @@ int main() {
 
                 printf("\nEscolha uma opcao:");
                 break; // break para finalizar cada case 
+
+                case 6:
+                montarRefeicao();
+                break;
+
+                case 7:
+                guiaCompras();
+                break;
+
 
 
             case 0: // opção para sair do sistema 
