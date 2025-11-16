@@ -3,7 +3,7 @@
 
 void guiaCompras() { // Usei 'void' porque esta função não precisa devolver nenhum valor. Ela apenas mostra o texto na tela. Como não há retorno para o main. 
     puts("===== GUIA DE COMPRAS VEGANAS ====="); // usei apenas puts para mostrar em texto o que o usario deve comprar para seguir uma dieta vegana não nada muito complexio daria pra fazer com printf tambem 
-
+    printf("\n"); 
     puts("--- Basicos ---");
     puts("- Arroz integral");
     puts("- Feijao preto ou lentilha");
@@ -11,7 +11,7 @@ void guiaCompras() { // Usei 'void' porque esta função não precisa devolver n
 
     puts("--- Proteinas ---");
     puts("- Tofu");
-    puts("- Proteína Vegetal Texturizada");
+    puts("- Proteina Vegetal Texturizada");
     puts("- Grao de Bico");
     puts("- Lentilha");
 
@@ -25,10 +25,10 @@ void guiaCompras() { // Usei 'void' porque esta função não precisa devolver n
     puts("- Tomate");
     puts("- Abobrinha");
     puts("- Banana");
-    puts("- Maçã");
+    puts("- Maca");
 
     puts("--- Temperos saudaveis ---");
-    puts("- Açafrao");
+    puts("- Acafrao");
     puts("- Papric");
     puts("- Oregano");
     puts("- Chimichurri");
