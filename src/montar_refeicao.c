@@ -1,10 +1,45 @@
 #include <stdio.h>
 #include "funcoes.h"
+#include "tipos.h"
+Alimento carboidratos [] = {
+    {"Arroz integral", 2, 23, 110},
+    {"Quinoa Cozida", 4, 19, 120},
+    {"Macarrao vegano", 5, 25, 140}
+};
+int quantidadeCarbo = 3;
+
+Alimento Leguminosas[] ={
+    {"Feijao carioca", 4, 14, 90},
+    {"Lentilha", 9, 20, 116}
+};
+int quatidadeLegume = 2;
+
+Alimento proteinasVegetal[] = {
+    {"Tofu", 8, 2, 70},
+    {"Proteina vegetal txturizada", 15, 9, 120},
+    {"Grao-de-bico", 6, 27, 160}
+};
+int quantidadeProteina = 3;
+
+Alimento saladas[] = {
+    {"Mix verde", 1, 1, 15},
+    {"Tomate temperado", 1, 3, 18},
+    {"Cenoura ralada", 1, 7, 41}
+};
+int quantidadeSalada = 3;
 
 void montarRefeicao() { 
     // Usei 'void' porque esta função só exibe informações na tela,
     // ela não precisa retornar nada para o main.
 
+    for (int i = 0; i< quantidadeCarbo; i++){
+        printf ("%d - %s | %d proteina | %d carbo |%d kcal\n",
+        i+1,
+    carboidratos[i].nome,
+    carboidratos[i].proteina,
+    carboidratos[i].carbo,
+    carboidratos[i].kcal);
+    }
     int prato =10; //variável que recebe a escolha do usuário
 
    

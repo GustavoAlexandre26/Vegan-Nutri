@@ -1,0 +1,10 @@
+Header: funcoes.h
+Descrição: Reune as declarações das funções usadas no programas.
+Conteudo:
+- void montarRefeicao();
+- void guiaCompras();
+
+Header: tipos.h
+Descrição: Armazena todas as structs do projeto.
+Conteudo:
+- struct Alimentos

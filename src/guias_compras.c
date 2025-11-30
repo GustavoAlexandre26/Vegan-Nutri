@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "funcoes.h"
+#include "tipos.h"
 
 void guiaCompras() { // Usei 'void' porque esta função não precisa devolver nenhum valor. Ela apenas mostra o texto na tela. Como não há retorno para o main. 
     puts("===== GUIA DE COMPRAS VEGANAS ====="); // usei apenas puts para mostrar em texto o que o usario deve comprar para seguir uma dieta vegana não nada muito complexio daria pra fazer com printf tambem 

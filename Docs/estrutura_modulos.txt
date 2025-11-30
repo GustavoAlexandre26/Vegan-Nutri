@@ -1,0 +1,24 @@
+Modulo: Menu Principal
+Arquivo: main.c
+Header: funcoes.h
+Funcoes:
+- mostrar o Menu
+- Chamar as funcoes montarRefeicao e guiaCompras
+Dependencias:
+- funcoes.h
+
+Módulo: montarRefeicao
+Arquivo: montar_refeicao.c
+Header: funcoes.h
+Funcoes:
+- montarRefeicao()
+Dependencias:
+-funcoes.h
+-stdio.h
+
+Modulo: Guia de Compras
+Arquivo: tipos.h
+Header: tipos.h
+
+Funcoes:
+- definicao da struct alimento

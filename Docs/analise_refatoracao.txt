@@ -1,0 +1,10 @@
+Análise da Parte 2
+
+O código da Parte 2 estava todo junto no main.c e ficava difícil de organizar.
+Por isso, eu separamos as funções em arquivos diferentes (montar_refeicao.c e guias_compras.c).
+Isso deixou o código mais limpo e fácil de entender.
+
+Percebemos que ainda não utilizamos structs e podemos criar uma struct para representar alimentos.
+Também notamos que não temos código repetido, e as funções estão fáceis de ler.
+
+A modularização já melhorou bastante a estrutura do nosso código.

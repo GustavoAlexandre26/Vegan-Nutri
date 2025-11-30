@@ -1,0 +1,8 @@
+Struct: Alimento
+
+Descrição: Representa um alimento vegano com informações nutricionais.
+Campos:
+- nome (texto): nome do alimento
+- proteina (numero): quantidade de proteina
+- carbo(numero):carboidratos
+kcal(numero): calorias
